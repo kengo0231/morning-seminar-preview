@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ▼▼ テストページ：検索エンジンにインデックスさせない ▼▼ -->
+<meta name="robots" content="noindex, nofollow">
+<title>その朝の1時間が、一日でいちばん実りある時間になる。｜経営者のためのモーニングセミナー</title>
+<meta name="description" content="普段なら、紹介がなければ会えない経営者。その人の話を60分間、間近で聞ける朝活セミナーです。出社前に終わって、そのまま仕事へ。都内各地・初回無料・手ぶらでOK。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="その朝の1時間が、一日でいちばん実りある時間になる。｜経営者のためのモーニングセミナー">
+<meta property="og:description" content="普段なら、紹介がなければ会えない経営者。その人の話を60分間、間近で聞ける朝活セミナーです。出社前に終わって、そのまま仕事へ。都内各地・初回無料・手ぶらでOK。">
+<meta property="og:image" content="https://kengo0231.github.io/morning-seminar-preview/line/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#071c3a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho+B1:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#071c3a; --navy-2:#0a1f4e; --navy-3:#12326b;
+  --gold:#d0a240; --gold-hi:#f4d992; --gold-soft:#e6c98a; --gold-ink:#86610f;
+  --paper:#f8f4ec; --paper-2:#eee6d5; --rule:#d8cfbb;
+  --ink:#0a1f4e; --ink-body:#26324f; --ink-soft:#586178;
+  --green:#06c755; --green-d:#049a41; --green-ink:#05210f;
+  --mincho:"Shippori Mincho B1","Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;
+  --gothic:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --display:"Cormorant Garamond","Shippori Mincho B1","Hiragino Mincho ProN",serif;
+  --pad:22px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  font-family:var(--gothic); font-size:16px; line-height:1.9; color:var(--ink-body);
+  background:var(--paper); font-feature-settings:"palt"; word-break:auto-phrase; overflow-wrap:anywhere;
+  overflow-x:clip; -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+h2,.big,.punch,.band strong,.three span,.voice p,.list-q li{text-wrap:balance}
+p,li{text-wrap:pretty}
+ul,ol{list-style:none}
+b{font-weight:700}
+.in{width:100%;max-width:1120px;margin:0 auto}
+.sec{padding:72px var(--pad)}
+
+/* ---------- 共通：見出し ---------- */
+.eyebrow{display:flex;align-items:center;gap:12px;font:700 13.5px/1 var(--display);letter-spacing:.24em;
+  color:var(--gold-ink);margin-bottom:20px}
+.eyebrow::before{content:"";width:30px;height:1px;background:currentColor}
+h2{font:700 28px/1.5 var(--mincho);letter-spacing:.02em;color:var(--navy);font-feature-settings:"palt"}
+.lead{margin-top:20px;font-size:16px;line-height:1.98;color:var(--ink-body);max-width:36em}
+.lead b{font-weight:700;color:var(--navy)}
+.sec .head + .body{margin-top:32px}
+.body > :first-child{margin-top:0}
+.dark{background:var(--navy);color:#fff}
+.dark h2{color:#fff}
+.dark .eyebrow{color:var(--gold)}
+.dark .lead{color:#dbe2ee}
+.dark .lead b{color:#fff}
+
+/* ---------- CTA（LINEグリーン／最優先の視認性） ---------- */
+.cta{position:relative;display:flex;align-items:center;justify-content:center;gap:12px;
+  width:100%;max-width:400px;min-height:66px;margin:32px 0 0;padding:12px 46px 12px 16px;
+  text-decoration:none;background:var(--green);color:#fff;text-shadow:0 1px 2px rgba(0,70,25,.35);border-radius:14px;
+  font:900 16px/1.4 var(--gothic);letter-spacing:.01em;text-align:left;
+  box-shadow:0 5px 0 var(--green-d),0 16px 30px rgba(4,154,65,.32);
+  transition:transform .12s ease,box-shadow .12s ease,filter .2s;-webkit-tap-highlight-color:transparent}
+.cta:hover{filter:brightness(1.05)}
+.cta:active{transform:translateY(4px);box-shadow:0 1px 0 var(--green-d),0 6px 12px rgba(4,154,65,.3)}
+.cta:focus-visible{outline:3px solid var(--gold-hi);outline-offset:3px}
+.cta .ico{flex:none;display:grid;place-items:center;width:44px;height:26px;background:#fff;color:#06a547;
+  border-radius:8px;font:900 11.5px/1 var(--gothic);letter-spacing:.02em;text-shadow:none}
+.cta .lbl{display:block;text-wrap:balance}
+.cta small{display:block;margin-top:3px;font:700 11.5px/1.5 var(--gothic);color:#fff;letter-spacing:.01em}
+.cta::after{content:"";position:absolute;right:20px;top:50%;width:10px;height:10px;
+  border-top:3px solid #fff;border-right:3px solid #fff;transform:translateY(-50%) rotate(45deg);
+  transition:right .2s}
+.cta:hover::after{right:16px}
+.cta-note{margin-top:14px;font:400 12px/1.8 var(--gothic);color:var(--ink-soft)}
+.dark .cta-note,.closing .cta-note{color:#d3dbe8}
+
+/* ---------- 1. FV ---------- */
+.fv{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.fv-top{position:relative;z-index:3;padding:14px var(--pad);border-bottom:1px solid rgba(244,217,146,.2)}
+.brand{font:500 11px/1.7 var(--gothic);letter-spacing:.08em;color:#b9c4d8}
+.brand b{font-weight:700;color:var(--gold-hi)}
+.fv-photo{position:relative;height:176px;margin:0;overflow:hidden}
+.fv-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 84%;animation:settle 2.4s cubic-bezier(.2,.7,.2,1) both}
+.fv-photo::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(7,28,58,.28) 0%,rgba(7,28,58,0) 26%,rgba(7,28,58,.62) 74%,var(--navy) 100%)}
+.fv-body{position:relative;z-index:2;margin-top:-80px;padding:0 var(--pad) 52px}
+.fv h1{font:700 clamp(30px,9vw,42px)/1.46 var(--mincho);letter-spacing:.01em;color:#fff;font-feature-settings:"palt"}
+.fv h1 br.m{display:block}
+.fv h1 .em{color:var(--gold-hi);background:linear-gradient(var(--gold),var(--gold)) 0 100%/100% 2px no-repeat;padding-bottom:4px;
+  animation:underline 1.1s .9s cubic-bezier(.2,.7,.2,1) both}
+.fv .sub{margin-top:22px;font-size:15px;line-height:2;color:#e4e9f3}
+.fv .sub b{color:#fff;font-weight:700;background:linear-gradient(transparent 70%,rgba(208,162,64,.55) 70%)}
+.aiq{display:block;text-wrap:nowrap;font:800 clamp(21px,6.4vw,26px)/1.5 var(--mincho);letter-spacing:.02em}
+.aiq .ln{display:table;margin-top:7px;padding:3px 12px 5px;background:#fff;color:var(--navy)}
+.aiq .ln:first-child{margin-top:0}
+.aiq em{font-style:normal;color:var(--gold-ink)}
+.fv .cond{margin-top:18px;font-size:13px;line-height:1.95;color:#bfcadd}
+.fv .cta{margin-top:26px}
+.fv-body > *{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.fv-body > :nth-child(2){animation-delay:.12s}
+.fv-body > :nth-child(3){animation-delay:.24s}
+.fv-body > :nth-child(4){animation-delay:.36s}
+.fv-body > :nth-child(5){animation-delay:.44s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes settle{from{transform:scale(1.08)}to{transform:none}}
+@keyframes underline{from{background-size:0 2px}to{background-size:100% 2px}}
+
+/* ---------- 2. 回収バンド ---------- */
+.band{background:var(--gold);color:var(--navy);padding:38px var(--pad)}
+.band .in{display:grid;gap:8px}
+.band p{font:700 14px/1.8 var(--gothic);color:rgba(7,28,58,.82);letter-spacing:.04em}
+.band strong{display:block;font:800 22px/1.65 var(--mincho);letter-spacing:.01em;color:var(--navy)}
+.band strong em{font-style:normal;background:linear-gradient(transparent 60%,rgba(255,255,255,.6) 60%)}
+
+/* ---------- 3. テーマ ---------- */
+.themes{background:var(--paper)}
+.theme-list{border-top:2px solid var(--navy)}
+.theme{display:grid;grid-template-columns:1fr auto;gap:4px 18px;align-items:baseline;
+  padding:18px 2px 17px;border-bottom:1px solid var(--rule);
+  font:700 17.5px/1.55 var(--mincho);color:var(--navy);transition:padding .25s,background .25s}
+.nb{font-style:normal;display:inline-block}
+.theme .loc{font:500 11.5px/1.4 var(--gothic);color:var(--gold-ink);letter-spacing:.06em;white-space:nowrap;
+  position:relative;padding-left:13px}
+.theme .loc::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.after{margin-top:32px;padding:4px 0 4px 16px;border-left:3px solid var(--gold);font-size:15.5px;line-height:2;color:var(--ink-body)}
+.after b{color:var(--navy);background:linear-gradient(transparent 62%,rgba(208,162,64,.4) 62%)}
+
+/* ---------- 4. 誰が話すか ---------- */
+.speaker{padding-bottom:0}
+.speaker .list-q{margin-top:28px;border-top:1px solid rgba(244,217,146,.32)}
+.list-q li{position:relative;padding:20px 0 19px 42px;border-bottom:1px solid rgba(244,217,146,.18);
+  font:600 17px/1.75 var(--mincho);color:#fff}
+.list-q li::before{content:"";position:absolute;left:0;top:35px;width:28px;height:1px;background:var(--gold)}
+.speaker .close{margin-top:30px;font:700 20px/1.85 var(--mincho);color:#fff;letter-spacing:.01em}
+.speaker .close b{color:var(--gold-hi)}
+.ph{position:relative;margin:34px calc(-1*var(--pad)) 0}
+.ph img{width:100%;height:250px;object-fit:cover;object-position:62% 50%}
+.ph::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(180deg,var(--navy) 0%,rgba(7,28,58,0) 30%)}
+
+/* ---------- 5. なぜ ---------- */
+.why{background:var(--paper);padding-bottom:0}
+.big{margin-top:30px;font:700 22px/1.75 var(--mincho);color:var(--navy);letter-spacing:.01em}
+.flow2{margin-top:34px;display:grid;justify-items:center;text-align:center}
+.f-box{width:100%;max-width:440px;padding:22px 16px 20px;background:#fff;border:2px solid var(--navy);box-shadow:6px 6px 0 var(--gold);
+  font:800 clamp(18px,5.3vw,22px)/1.7 var(--mincho);color:var(--navy)}
+.f-box em{font-style:normal;background:linear-gradient(transparent 62%,rgba(208,162,64,.5) 62%)}
+.f-arrow{position:relative;width:100%;height:104px;display:grid;place-items:center}
+.f-arrow::before{content:"";position:absolute;left:50%;top:8px;bottom:8px;border-left:3px dotted var(--navy);transform:translateX(-50%)}
+.f-arrow::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);
+  border-left:9px solid transparent;border-right:9px solid transparent;border-top:13px solid var(--navy)}
+.f-arrow.plain{height:64px}
+.f-pill{position:relative;z-index:1;padding:5px 22px 6px;border-radius:999px;background:var(--gold);color:var(--navy);
+  font:900 15px/1.5 var(--gothic);letter-spacing:.08em}
+.f-dark .ln,.f-gold .ln{display:table;margin:0 auto 7px;padding:4px 14px 6px;font:800 clamp(19px,5.6vw,24px)/1.5 var(--mincho);letter-spacing:.01em}
+.f-dark .ln{background:var(--navy);color:#fff}
+.f-dark em{font-style:normal;color:var(--gold-hi)}
+.f-gold .ln{background:var(--gold);color:var(--navy);font-size:clamp(20px,6vw,26px)}
+.f-gold em{font-style:normal;background:linear-gradient(transparent 70%,rgba(255,255,255,.7) 70%)}
+.key{margin-top:34px;font:800 clamp(23px,6.6vw,28px)/1.7 var(--mincho);letter-spacing:.01em;color:var(--navy)}
+.key em{display:inline;font-style:normal;color:var(--navy);background:linear-gradient(transparent 62%,rgba(208,162,64,.5) 62%)}
+.big em{font-style:normal;background:linear-gradient(transparent 64%,rgba(208,162,64,.5) 64%)}
+
+.dia{margin:36px 0 12px;padding:26px 14px 20px;background:var(--navy);color:#fff;position:relative}
+.dia::before{content:"";position:absolute;inset:6px;border:1px solid rgba(208,162,64,.5);pointer-events:none}
+.dia-ttl{text-align:center;font:700 17.5px/1.65 var(--mincho);color:var(--gold-hi);margin-bottom:22px;letter-spacing:.02em}
+.dia-grid{display:grid;grid-template-columns:30px 1fr 30px;gap:6px;align-items:stretch}
+.zl{display:block;font:700 11.5px/1.5 var(--gothic);letter-spacing:.12em;color:#aeb9cd;margin-bottom:10px}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.chips b{padding:10px 0;text-align:center;font:600 14.5px/1.3 var(--mincho);color:#dbe2ee;
+  border:1px solid rgba(255,255,255,.32)}
+.water{margin:18px 0 16px;border-top:2px dashed var(--gold)}
+.core{background:var(--gold-hi);color:var(--navy);padding:16px 14px 15px}
+.core b{display:block;font:800 28px/1.2 var(--mincho);color:var(--navy);margin-bottom:10px;letter-spacing:.06em}
+.core ul{font:700 13.5px/1.7 var(--gothic)}
+.core li{position:relative;padding-left:13px}
+.core li+li{margin-top:3px}
+.core li::before{content:"";position:absolute;left:0;top:.72em;width:5px;height:5px;background:var(--navy)}
+.aitsu{margin-top:12px;padding:10px 8px;border:1px solid var(--gold);text-align:center;
+  font:700 13px/1.7 var(--mincho);color:var(--gold-hi);letter-spacing:0;text-wrap:nowrap}
+.arr{position:relative}
+.arr i{position:absolute;left:50%;margin-left:-1px;width:2px;top:14px;bottom:14px;background:rgba(255,255,255,.6)}
+.arr.down i{transform-origin:top;background:rgba(255,255,255,.7)}
+.arr.upw i{transform-origin:bottom;background:var(--gold)}
+.arr.down i::after{content:"";position:absolute;left:50%;bottom:-2px;width:11px;height:11px;margin-left:-5.5px;
+  border-right:2px solid rgba(255,255,255,.8);border-bottom:2px solid rgba(255,255,255,.8);transform:rotate(45deg)}
+.arr.upw i::after{content:"";position:absolute;left:50%;top:-2px;width:11px;height:11px;margin-left:-5.5px;
+  border-left:2px solid var(--gold);border-top:2px solid var(--gold);transform:rotate(45deg)}
+.arr span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:28px;height:28px;border-radius:50%;
+  background:var(--navy);border:1.5px solid #fff;display:grid;place-items:center;
+  font:900 13px/1 var(--gothic);color:#fff;z-index:2}
+.arr.upw span{border-color:var(--gold);color:var(--gold)}
+.js .dia:not(.in-view) .arr i{transform:scaleY(0)}
+.js .dia:not(.in-view) .arr i::after{opacity:0}
+.arr i{transition:transform 1.1s .25s cubic-bezier(.3,.7,.2,1)}
+.arr i::after{transition:opacity .3s 1.2s}
+.legend{margin-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+.legend li{position:relative;padding:12px 0 12px 40px;border-bottom:1px solid rgba(255,255,255,.14);
+  font:700 13.5px/1.6 var(--gothic);color:#fff}
+.legend b{position:absolute;left:0;top:11px;width:26px;height:26px;border-radius:50%;border:1.5px solid #fff;
+  display:grid;place-items:center;font-size:12.5px;font-weight:900;line-height:1}
+.legend li:nth-child(2) b{border-color:var(--gold);color:var(--gold)}
+
+.episode{margin-top:34px;padding:28px 20px 24px;background:var(--paper-2);position:relative;
+  font:500 15px/2 var(--mincho);color:#2a3d63}
+.episode::before{content:"“";position:absolute;left:14px;top:2px;font:500 60px/1 var(--display);color:var(--gold)}
+.finale{margin:44px calc(-1*var(--pad)) 0;padding:74px var(--pad) 56px;background:var(--navy)}
+.punch{position:relative;font:800 clamp(28px,8.2vw,36px)/1.6 var(--mincho);letter-spacing:.01em;color:#fff}
+.punch::before{content:"";position:absolute;left:0;top:-30px;width:42px;height:2px;background:var(--gold)}
+.punch em{font-style:normal;color:var(--gold-hi)}
+.after-punch{margin-top:26px;color:#dbe2ee;font:500 16px/2 var(--mincho)}
+.why .cta{margin-top:26px}
+
+/* ---------- 5b. 参加する理由 ---------- */
+.reason{background:var(--paper)}
+.reasons{border-top:2px solid var(--navy)}
+.reasons li{display:grid;grid-template-columns:60px 1fr;gap:6px;align-items:baseline;padding:22px 0 21px;border-bottom:1px solid var(--rule)}
+.reasons li>b{font:600 italic 42px/1 var(--display);color:var(--gold-ink);letter-spacing:.02em}
+.reasons strong{display:block;font:800 22px/1.55 var(--mincho);color:var(--navy);text-wrap:balance}
+.reasons span{display:block;margin-top:8px;font-size:15px;line-height:1.85;color:var(--ink-soft)}
+.m-lead{margin:0 0 26px;font:800 clamp(21px,6.2vw,25px)/1.65 var(--mincho);color:var(--navy);text-wrap:balance}
+.m-lead em{font-style:normal;background:linear-gradient(transparent 62%,var(--gold-hi) 62%)}
+
+/* ---------- 6. 朝 ---------- */
+.morning{background:var(--paper-2)}
+.eyebrow.time{font:600 italic 52px/1 var(--display);letter-spacing:.02em;color:var(--gold-ink);margin-bottom:18px}
+.eyebrow.time::before{display:none}
+.three{border-top:2px solid var(--navy)}
+.three div{display:grid;grid-template-columns:52px 1fr;align-items:baseline;gap:6px;padding:20px 0 19px;
+  border-bottom:1px solid var(--rule);font:700 17px/1.65 var(--mincho);color:var(--navy)}
+.three div b{font:600 italic 34px/1 var(--display);color:var(--gold-ink);letter-spacing:.02em}
+.flow{margin-top:44px}
+.flow h3{display:flex;align-items:center;gap:12px;font:700 13px/1 var(--gothic);letter-spacing:.14em;color:var(--ink-soft);margin-bottom:22px}
+.flow h3::after{content:"";flex:1;height:1px;background:var(--rule)}
+.flow ol{counter-reset:f}
+.flow li{counter-increment:f;position:relative;margin-left:14px;padding:0 0 26px 38px;border-left:1.5px solid var(--gold)}
+.flow li:last-child{border-left-color:transparent;padding-bottom:0}
+.flow li::before{content:counter(f);position:absolute;left:-15px;top:-2px;width:28px;height:28px;border-radius:50%;
+  background:var(--navy);color:var(--gold-hi);font:700 13px/1 var(--display);display:grid;place-items:center;
+  box-shadow:0 0 0 5px var(--paper-2)}
+.flow b{display:block;font:700 17px/1.5 var(--mincho);color:var(--navy)}
+.flow span{display:block;margin-top:5px;font-size:13.5px;line-height:1.85;color:var(--ink-soft)}
+.handsfree{margin-top:40px;padding:20px 0 0;border-top:2px solid var(--navy);font:700 17px/1.9 var(--mincho);color:var(--navy)}
+
+/* ---------- 7. 会場 ---------- */
+.venues{background:var(--paper)}
+.stat{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--navy);border-bottom:1px solid var(--rule)}
+.stat div{padding:22px 4px 20px 14px;border-left:1px solid var(--rule)}
+.stat div:first-child{border-left:0;padding-left:2px}
+.stat b{display:block;font:800 30px/1.15 var(--mincho);color:var(--navy);white-space:nowrap}
+.stat b i{font-style:normal;font-size:12.5px;font-weight:700;margin-left:1px}
+.stat b s{text-decoration:none;font-size:13.5px;font-weight:700;margin-right:1px}
+.stat span{display:block;margin-top:6px;font:500 11.5px/1.6 var(--gothic);color:var(--ink-soft)}
+.areas{margin-top:28px;display:flex;flex-wrap:wrap;gap:7px 6px}
+.areas span{padding:5px 10px 6px;border:1px solid #bdb394;font:500 12.5px/1.4 var(--gothic);color:var(--navy-2);white-space:nowrap;background:rgba(255,255,255,.5)}
+.areas span.more{border-color:transparent;background:none;color:var(--ink-soft)}
+
+/* ---------- 8. 声 ---------- */
+.voice{position:relative;padding:30px 0 26px;border-top:1px solid rgba(244,217,146,.28)}
+.voice:last-child{border-bottom:1px solid rgba(244,217,146,.28)}
+.voice::before{content:"“";position:absolute;left:-2px;top:20px;font:500 76px/1 var(--display);color:var(--gold);opacity:.9}
+.voice p{padding-top:34px;font:600 19px/1.85 var(--mincho);color:#fff;letter-spacing:.01em}
+.voice cite{display:flex;align-items:center;gap:10px;margin-top:16px;font:400 12.5px/1.6 var(--gothic);font-style:normal;color:var(--gold-soft)}
+.voice cite::before{content:"";flex:none;width:22px;height:1px;background:var(--gold)}
+.voices .body{margin-top:12px!important}
+
+/* ---------- 9. FAQ ---------- */
+.faq{background:var(--paper)}
+.faq details{border-top:1px solid var(--rule)}
+.faq details:last-of-type{border-bottom:1px solid var(--rule)}
+.faq summary{list-style:none;cursor:pointer;position:relative;padding:20px 40px 20px 30px;
+  font:700 16.5px/1.7 var(--mincho);color:var(--navy);-webkit-tap-highlight-color:transparent}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"Q";position:absolute;left:0;top:19px;font:700 22px/1.4 var(--display);color:var(--gold-ink)}
+.faq summary::after{content:"";position:absolute;right:4px;top:30px;width:14px;height:14px;
+  background:linear-gradient(var(--navy),var(--navy)) 50% 50%/100% 2px no-repeat,
+             linear-gradient(var(--navy),var(--navy)) 50% 50%/2px 100% no-repeat;transition:transform .25s}
+.faq details[open] summary::after{background:linear-gradient(var(--navy),var(--navy)) 50% 50%/100% 2px no-repeat}
+.faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.faq .a{position:relative;margin:0 4px 0 30px;padding:0 0 24px;font-size:15px;line-height:2;color:var(--ink-body);animation:fade .35s ease both}
+.faq .a::before{content:"A";position:absolute;left:-30px;top:-2px;font:700 22px/1.4 var(--display);color:var(--ink-soft)}
+@keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+/* ---------- 10. クロージング ---------- */
+.closing{position:relative;background:var(--navy);color:#fff;padding:84px var(--pad) 72px;overflow:hidden}
+.closing::before{content:"";position:absolute;left:0;right:0;bottom:0;height:30%;pointer-events:none;
+  background:linear-gradient(0deg,rgba(24,66,138,.75) 0%,rgba(24,66,138,0) 100%)}
+.closing::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--gold)}
+.closing .in{position:relative;z-index:1}
+.closing h2{font-size:clamp(31px,9vw,40px);line-height:1.45;color:#fff}
+.closing .lead{color:#dbe2ee;margin-top:22px}
+.gets{margin-top:36px;border-top:1px solid rgba(244,217,146,.38);background:rgba(7,28,58,.55)}
+.gets h3{padding:16px 0 4px;font:700 13px/1.6 var(--gothic);letter-spacing:.1em;color:var(--gold-hi)}
+.gets li{display:grid;grid-template-columns:38px 1fr;align-items:baseline;padding:14px 0 13px;
+  border-bottom:1px solid rgba(244,217,146,.18);font:500 15px/1.85 var(--gothic);color:#f0f3f9}
+.gets li:last-child{border-bottom:0}
+.gets li b{font:600 italic 34px/1 var(--display);color:var(--gold)}
+.closing .cta{margin-top:34px}
+
+footer{background:#041227;color:#8e9ab2;padding:30px var(--pad) 120px;font:400 11.5px/2 var(--gothic)}
+footer a{color:#a9b4c8}
+
+/* ---------- 追従バー ---------- */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+  background:rgba(5,19,40,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-top:1px solid rgba(244,217,146,.3);transform:translateY(120%);transition:transform .35s cubic-bezier(.3,.7,.2,1);pointer-events:none}
+.sticky.show{transform:none;pointer-events:auto}
+.sticky .cta{margin:0 auto;min-height:58px;padding:10px 40px 10px 12px;font-size:14px;gap:10px;box-shadow:0 4px 0 var(--green-d),0 10px 22px rgba(0,0,0,.35)}
+.sticky .cta:active{transform:translateY(3px);box-shadow:0 1px 0 var(--green-d)}
+
+/* ---------- PC ---------- */
+@media(min-width:900px){
+  :root{--pad:40px}
+  .sec,.speaker,.why{padding:128px var(--pad)}
+  .sec > .in{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:80px;align-items:start}
+  .sec .head{position:sticky;top:64px}
+  .sec .head + .body{margin-top:0}
+  h2{font-size:40px;line-height:1.55}
+  .lead{font-size:17px;margin-top:24px}
+  .eyebrow.time{font-size:96px;margin-bottom:26px}
+  .cta{max-width:440px;min-height:72px;font-size:17px;margin-top:40px}
+  .cta small{font-size:12.5px}
+
+  .fv{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);grid-template-rows:auto 1fr;min-height:min(100vh,880px)}
+  .fv-top{grid-column:1/-1;padding:20px max(var(--pad),calc((100vw - 1120px)/2))}
+  .brand{font-size:12.5px}
+  .fv-photo{grid-column:2;grid-row:2;height:auto}
+  .fv-photo img{object-position:50% 70%}
+  .fv-photo::after{background:linear-gradient(90deg,var(--navy) 0%,rgba(7,28,58,.0) 38%),linear-gradient(0deg,rgba(7,28,58,.35),rgba(7,28,58,0) 40%)}
+  .fv-body{grid-column:1;grid-row:2;margin:0;align-self:center;padding:76px 36px 76px max(var(--pad),calc((100vw - 1120px)/2))}
+  .fv h1{font-size:clamp(40px,3.7vw,54px);line-height:1.5}
+  .fv h1 br.m{display:none}
+  .fv .sub{font-size:16.5px;margin-top:32px}
+  .aiq{font-size:30px}
+  .aiq .ln{margin-top:9px;padding:4px 16px 6px}
+  .fv .cond{font-size:14px}
+
+  .band{padding:56px var(--pad)}
+  .band .in{grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:80px;align-items:center}
+  .band p{font-size:15px}
+  .band strong{font-size:32px}
+
+  .theme-list{display:block}
+  .theme{font-size:21px;padding:24px 4px 22px}
+  .theme:hover{padding-left:14px;background:rgba(208,162,64,.12)}
+  .theme .loc{font-size:12.5px}
+  .after{font-size:16.5px}
+
+  .list-q li{font-size:20px;padding:24px 0 23px 52px}
+  .list-q li::before{width:34px;top:44px}
+  .speaker .close{font-size:26px}
+  .ph{margin:56px 0 0;padding:0 0 18px 18px}
+  .ph::before{display:none}
+  .ph::after{content:"";position:absolute;left:0;bottom:0;right:18px;top:18px;border:1px solid var(--gold);z-index:0}
+  .ph img{position:relative;z-index:1;height:420px}
+
+  .big{font-size:28px}
+  .key{font-size:34px}
+  .flow2{justify-items:start;text-align:left}
+  .f-box{max-width:560px;padding:30px 28px 28px;font-size:26px}
+  .f-arrow{max-width:560px;height:120px}
+  .f-arrow.plain{height:76px}
+  .f-dark .ln,.f-gold .ln{margin:0 0 9px;padding:5px 18px 7px;font-size:30px}
+  .f-gold .ln{font-size:34px}
+  .dia{padding:36px 36px 28px}
+  .dia-ttl{font-size:22px}
+  .dia-grid{grid-template-columns:48px 1fr 48px;gap:12px}
+  .chips b{font-size:18px;padding:14px 0}
+  .core{padding:22px 24px 20px}
+  .core b{font-size:36px}
+  .core ul{font-size:15.5px}
+  .aitsu{font-size:17px;padding:14px}
+  .arr span{width:34px;height:34px;font-size:15px}
+  .legend li{font-size:15px}
+  .episode{font:500 16.5px/2.05 var(--mincho);padding:36px 36px 30px}
+  .finale{margin:64px 0 0;padding:104px 56px 72px}
+  .punch{font-size:clamp(36px,3.4vw,48px)}
+  .punch::before{top:-44px}
+  .after-punch{font-size:19px;margin-top:32px}
+
+  .three div{grid-template-columns:72px 1fr;font-size:20px;padding:26px 0 24px}
+  .three div b{font-size:44px}
+  .flow li{padding-bottom:32px}
+  .flow b{font-size:19px}
+  .flow span{font-size:14.5px}
+  .handsfree{font-size:20px}
+
+  .stat b{font-size:46px}
+  .stat b i{font-size:16px}
+  .stat b s{font-size:18px}
+  .stat span{font-size:13px}
+  .stat div{padding:30px 8px 28px 26px}
+  .stat div:first-child{padding-left:4px}
+  .areas span{font-size:13.5px;padding:7px 13px 8px}
+
+  .voice p{font-size:22px;padding-top:40px}
+  .voice::before{font-size:96px;top:22px}
+  .voice cite{font-size:13.5px}
+
+  .faq summary{font-size:19px;padding:26px 48px 26px 40px}
+  .faq summary::before{top:24px;font-size:26px}
+  .faq summary::after{top:36px}
+  .faq .a{margin-left:40px;font-size:16px}
+  .faq .a::before{left:-40px;font-size:26px}
+
+  .closing{padding:140px var(--pad) 120px}
+  .closing .in{max-width:760px;text-align:left}
+  .closing h2{font-size:56px}
+  .gets li{font-size:16.5px;padding:18px 0 17px}
+  .gets li b{font-size:42px}
+  footer{padding:36px var(--pad) 120px}
+  footer .in{max-width:1120px}
+  .sticky{padding:12px 24px}
+  .sticky .cta{max-width:480px;min-height:62px;font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== 1. ファーストビュー ===== -->
+<header class="fv">
+  <div class="fv-top">
+    <p class="brand"><b>東京都倫理法人会</b>　｜　経営者のためのモーニングセミナー</p>
+  </div>
+  <figure class="fv-photo">
+    <img src="img/fv-b.jpg" alt="" aria-hidden="true" width="955" height="1280" fetchpriority="high">
+  </figure>
+  <div class="fv-body">
+    <h1>その朝の1時間が、<br>一日で<br class="m"><span class="em">いちばん実りある</span><br>時間になる。</h1>
+
+    <p class="sub">
+      <span class="aiq"><span class="ln">AI時代でも、</span><span class="ln"><em>選ばれ続ける</em>経営者に</span><span class="ln">なるための朝活セミナー</span></span>
+    </p>
+
+    <div>
+      <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="fv">
+        <span class="ico">LINE</span><span class="lbl">LINEで日程を受け取る（無料）
+        <small>▸ お近くの会場と今週の日程をお送りします</small></span>
+      </a>
+      <p class="cta-note">※30秒で完了。費用はかかりません。入会の強制もありません。</p>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 2. 回収バンド ===== -->
+<div class="band">
+  <div class="in">
+    <p>一般論でも、成功談でもありません。</p>
+    <strong>「それ、うちでも<em>明日からやれる</em>」と<br>思って出社できる60分です。</strong>
+  </div>
+</div>
+
+<!-- ===== 5. AI時代に選ばれる理由 ===== -->
+<section class="sec why">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow">WHY</p>
+      <h2>AIが優秀になるほど、<br>「誰に頼むか」が<br>問われる。</h2>
+    </div>
+    <div class="body">
+      <div class="flow2">
+        <p class="f-box">差がつくのは、<br>「何ができるか」ではなく<br><em>「誰に任せたいか」。</em></p>
+        <div class="f-arrow plain"></div>
+        <p class="f-dark"><span class="ln">同じ価格、同じ品質なら、</span><span class="ln">人は<em>「あの人」</em>を選びます。</span></p>
+        <div class="f-arrow"><span class="f-pill">だから</span></div>
+        <p class="f-gold"><span class="ln"><em>「あの人」</em>に選ばれる</span><span class="ln">経営者になるための</span><span class="ln">朝活セミナーです。</span></p>
+      </div>
+
+      <div class="finale">
+        <p class="punch">「なんでいつも<br>アイツばっかり」の、<br><em>『アイツ』になる。</em></p>
+        <p class="after-punch">AIが何でもできる時代に、<br>「この人がいい」と選ばれる経営者へ。</p>
+
+        <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="why">
+          <span class="ico">LINE</span><span class="lbl">LINEで日程を受け取る（無料）</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5b. 参加する理由 ===== -->
+<section class="sec reason">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow">REASON</p>
+      <h2>なぜ、この朝活に<br>参加するのか。</h2>
+    </div>
+    <div class="body">
+      <ol class="reasons">
+        <li><b>01</b><div><strong>出会うはずのなかった経営者に、会える朝。</strong><span>経営者・実業家の講演を、目の前で直接聞けます。</span></div></li>
+        <li><b>02</b><div><strong>聞いた朝に、もう動き出せる。</strong><span>一日が始まる前だから、学びをその日の仕事にすぐ使えます。</span></div></li>
+        <li><b>03</b><div><strong>名刺交換では生まれない、深い縁。</strong><span>希望者は朝食会へ。同じ立場の経営者と、じっくり話せます。</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. 朝・当日の流れ ===== -->
+<section class="sec morning">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow time">6:30 - 7:30</p>
+      <h2>朝6時30分から、<br>60分で終わります。</h2>
+    </div>
+    <div class="body">
+      <p class="m-lead">朝の60分を、<br><em>自分のために使う</em>という選択。</p>
+
+      <div class="three">
+        <div><b>01</b><span>電話もチャットも鳴らない、一日で唯一の時間</span></div>
+        <div><b>02</b><span>判断力のピークを、自社のために使える</span></div>
+        <div><b>03</b><span>出社前に終わるから、仕事に食い込まない</span></div>
+      </div>
+
+      <div class="flow">
+        <h3>当日の流れ</h3>
+        <ol>
+          <li><b>受付</b><span>開始15分前から。初めての方はスタッフがご案内します</span></li>
+          <li><b>開会・講演</b><span>会長挨拶のあと、経営者・実業家の講演へ</span></li>
+          <li><b>閉会</b><span>全体で60分。そのまま出社できます</span></li>
+          <li><b>朝食会</b><span>希望者のみ。参加者同士で視点を持ち寄ります</span></li>
+        </ol>
+      </div>
+
+      <p class="handsfree">持ち物はありません。<br>普段のお仕事着で、手ぶらでどうぞ。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. 会場 ===== -->
+<section class="sec venues">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow">VENUES</p>
+      <h2>明日の朝、<br>行ける場所にあります。</h2>
+    </div>
+    <div class="body">
+      <p class="lead">都心から多摩まで、都内のほぼ全域に会場があります。</p>
+
+      <div class="stat" style="margin-top:30px">
+        <div><b>7<i>〜</i>10<i>会場</i></b><span>平日1日あたり</span></div>
+        <div><b><s>ほぼ</s>毎朝</b><span>土曜も開催</span></div>
+        <div><b>50<i>エリア</i></b><span>都内ほぼ全域</span></div>
+      </div>
+
+      <div class="areas">
+        <span>千代田</span><span>丸の内</span><span>日本橋</span><span>銀座</span><span>築地</span>
+        <span>港</span><span>赤坂</span><span>青山</span><span>新宿</span><span>渋谷</span>
+        <span>品川</span><span>目黒</span><span>大田</span><span>世田谷</span><span>中野</span>
+        <span>杉並</span><span>豊島</span><span>北</span><span>板橋</span><span>練馬</span>
+        <span>文京</span><span>上野</span><span>浅草</span><span>荒川</span><span>足立</span>
+        <span>葛飾</span><span>江戸川</span><span>江東</span><span>墨田</span>
+        <span>武蔵野・三鷹</span><span>府中・調布</span><span>立川・昭島</span>
+        <span>八王子</span><span>町田</span><span>日野・多摩</span><span class="more">ほか</span>
+      </div>
+
+      <p class="after">
+        お住まいの近くか、勤務先の近くか。<br>
+        <b>通いやすい会場と、直近の開催日程をLINEでお送りします。</b>
+      </p>
+
+      <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="venues">
+        <span class="ico">LINE</span><span class="lbl">近くの会場を探す ▸ LINEへ</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. 参加者の声 ===== -->
+<section class="sec dark voices">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow">VOICES</p>
+      <h2>参加した経営者の声</h2>
+    </div>
+    <div class="body">
+      <div class="voice">
+        <p>部下が育たない原因は、相手ではなく私の関わり方にあるとわかりました</p>
+        <cite>建設会社経営（男性・50代／社員12名）</cite>
+      </div>
+      <div class="voice">
+        <p>何年も集客に悩んでいたのに、異業種の社長の一言で見方が変わりました</p>
+        <cite>美容サロン経営（女性・40代／独立7年）</cite>
+      </div>
+      <div class="voice">
+        <p>会社の問題ばかり探していましたが、一番見直すべきは自分の経営姿勢でした</p>
+        <cite>二代目経営者（男性・50代／社員20名）</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 9. FAQ ===== -->
+<section class="sec faq">
+  <div class="in">
+    <div class="head">
+      <p class="eyebrow">FAQ</p>
+      <h2>よくある質問</h2>
+    </div>
+    <div class="body">
+      <details open>
+        <summary>宗教やマルチ商法のようなものではありませんか？</summary>
+        <p class="a">いいえ。東京都倫理法人会が運営する、経営者が「あり方」を学び実践する朝の学びの場です。特定の宗教団体とは関係ありません。</p>
+      </details>
+      <details>
+        <summary>AIの使い方や活用事例を学べますか？</summary>
+        <p class="a">AIの操作方法そのものを学ぶ場ではありません。AIが「やり方」を担う時代に、人として選ばれ続けるための考え方と実践を、経営者本人の言葉で聞く場です。</p>
+      </details>
+      <details>
+        <summary>費用はかかりますか？</summary>
+        <p class="a">初回は無料です。会場費などもかかりません。</p>
+      </details>
+      <details>
+        <summary>入会を勧められますか？ 入会しないといけませんか？</summary>
+        <p class="a">ご案内はありますが、強制は一切ありません。見学だけで帰られる方も多くいらっしゃいます。</p>
+      </details>
+      <details>
+        <summary>ひとりでも大丈夫ですか？</summary>
+        <p class="a">はい。受付からスタッフがご案内します。初参加の方は毎回いらっしゃいます。</p>
+      </details>
+      <details>
+        <summary>服装・持ち物は？</summary>
+        <p class="a">普段のお仕事着で、手ぶらでお越しください。</p>
+      </details>
+      <details>
+        <summary>朝が苦手なのですが……</summary>
+        <p class="a">6時30分または7時開始、60分で終了します。そのまま出社できます。</p>
+      </details>
+
+      <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="faq">
+        <span class="ico">LINE</span><span class="lbl">LINEで日程を受け取る（無料）</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 10. クロージング ===== -->
+<section class="closing">
+  <div class="in">
+    <h2>明日の朝、60分だけ。</h2>
+    <p class="lead">
+      その1時間が、一日でいちばん<br>実りある時間になります。<br>
+      AIには置き換えられない60分を、まず一度。<br>
+      初回無料、手ぶらでどうぞ。
+    </p>
+
+    <div class="gets">
+      <h3>登録すると、この3つが届きます</h3>
+      <ul>
+        <li><b>1</b><span>今週のテーマと、登壇する経営者のご案内</span></li>
+        <li><b>2</b><span>通いやすい会場と、直近の開催日程</span></li>
+        <li><b>3</b><span>はじめての方へ：当日の流れ・服装・費用</span></li>
+      </ul>
+    </div>
+
+    <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="closing">
+      <span class="ico">LINE</span><span class="lbl">LINEで日程を受け取る（無料）</span>
+    </a>
+    <p class="cta-note">※30秒で完了。費用はかかりません。入会の強制もありません。</p>
+  </div>
+</section>
+
+<footer>
+  <div class="in">
+    経営者のためのモーニングセミナー ／ 東京都倫理法人会<br>
+    <a href="https://pr.tokyo-rinri.net/morning-seminar/privacy/">プライバシーポリシー</a>
+  </div>
+</footer>
+
+<!-- ===== 追従バー ===== -->
+<div class="sticky" id="sticky">
+  <a class="cta" href="https://s.lmes.jp/landing-qr/2011710731-ucLJEMlM?uLand=3GxEkM" data-cta="sticky">
+    <span class="ico">LINE</span><span class="lbl">初回無料 ｜ 日程をLINEで受け取る</span>
+  </a>
+</div>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  root.classList.add('js');
+
+  // 追従バー：ファーストビューのCTAとクロージングのCTAが見えていない間だけ表示
+  var sticky = document.getElementById('sticky');
+  var fvCta = document.querySelector('a[data-cta="fv"]');
+  var endCta = document.querySelector('a[data-cta="closing"]');
+  var fvSeen = true, endSeen = false;
+  function update(){ sticky.classList.toggle('show', !fvSeen && !endSeen); }
+  if ('IntersectionObserver' in window){
+    new IntersectionObserver(function(e){ fvSeen = e[0].intersectionRatio > .95; update(); }, {threshold:[0,.95,1]}).observe(fvCta);
+    new IntersectionObserver(function(e){ endSeen = e[0].isIntersecting; update(); }).observe(endCta);
+  } else {
+    sticky.classList.add('show');
+  }
+})();
+
+// CTAクリック計測フック
+// ▼ Metaピクセル導入後、下のコメントを外せばCTA位置別に計測できます
+document.querySelectorAll('a[data-cta]').forEach(function(a){
+  a.addEventListener('click', function(){
+    var pos = a.getAttribute('data-cta');
+    if (window.fbq) { /* fbq('trackCustom','LineTap',{position:pos}); */ }
+    if (window.gtag){ /* gtag('event','line_tap',{cta_position:pos});   */ }
+  });
+});
+</script>
+</body>
+</html>
